@@ -2,10 +2,8 @@
 <span><strong>Data: <%= data_br(Date.today) %></span></strong>
 <h3><%= name_application%></h3>
 
-<ul>
-    <li>
-        <%= link_to "Cadastro de moeda", coins_path %>
-    </li>
-</ul>
+<%=render "menu" %>
 
 <p>Voce esta em ambiente de <strong><%= ambiente_rails%></strong></p>
+
+<p><strong>Eu sou uma variavel de instancia/sessão <%= @nome%></strong></p>
