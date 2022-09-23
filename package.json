@@ -1,5 +1,15 @@
 {
   "name": "crypto_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "jquery": "^3.6.1",
+    "notify-js-legacy": "^0.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Smooke09/crypto_wallet.git",
+  "author": "Smooke09 <pedrolucas1014zz@gmail.com>",
+  "license": "MIT"
 }
